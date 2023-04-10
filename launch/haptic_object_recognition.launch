@@ -1,0 +1,14 @@
+<launch>
+
+  <!--launching the nodes-->
+  <group ns="haptic_object_recognition_group">
+    <node pkg="haptic_object_recognition" name="visualise_results" type="visualise_results.py"/>
+    <node pkg="haptic_object_recognition" name="haptic_interaction_generator" type="haptic_interaction_generator.py"/>
+    <node pkg="haptic_object_recognition" name="experiment_execution" type="experiment_execution.py"/>
+    <node pkg="haptic_object_recognition" name="recognition_accuracy_prediction" type="recognition_accuracy_prediction.py"/>
+  </group>
+  
+  <!--launching rqt_graph-->
+  <node pkg="rqt_graph" type="rqt_graph" name="haptic_object_recognition_graph"/>
+  
+</launch>

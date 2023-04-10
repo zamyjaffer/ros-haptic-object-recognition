@@ -1,0 +1,5 @@
+float64 haptic_time_3
+float64 haptic_time_5
+float64 haptic_time_7
+float64 haptic_time_9
+float64 haptic_time_15

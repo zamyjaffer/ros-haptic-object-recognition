@@ -1,0 +1,5 @@
+int64 stimulus_object
+int64 haptic_time
+---
+float64 p_correct
+float64 p_incorrect
